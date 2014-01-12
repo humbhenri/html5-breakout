@@ -37,7 +37,7 @@ window.addEventListener('load', function () {
       this.dy = -this.dy;
     },
     escaped: function() {
-      return this.y < 0;
+      return this.y > HEIGHT;
     },
     reset: function() {
       this.x = 350;
